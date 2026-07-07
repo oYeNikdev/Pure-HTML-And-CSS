@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Profile</title>
+</head>
+<body>
+
+    <header>
+        <h1>Our Family</h1>
+        <p>Welcome to our family profile page</p>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Family Overview</h2>
+
+            <p>
+                We are a loving and supportive family that values
+                togetherness, respect, and happiness.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Family Members</h2>
+
+            <article>
+                <h3>Father</h3>
+
+                <p><strong>Name:</strong> Rajesh Sharma</p>
+                <p><strong>Age:</strong> 48 Years</p>
+                <p><strong>Occupation:</strong> Engineer</p>
+
+            </article>
+
+            <br>
+
+            <article>
+
+                <h3>Mother</h3>
+
+                <p><strong>Name:</strong> Sunita Sharma</p>
+                <p><strong>Age:</strong> 45 Years</p>
+                <p><strong>Occupation:</strong> Teacher</p>
+
+            </article>
+
+            <br>
+
+            <article>
+
+                <h3>Son</h3>
+
+                <p><strong>Name:</strong> Aman Sharma</p>
+                <p><strong>Age:</strong> 20 Years</p>
+                <p><strong>Occupation:</strong> Student</p>
+
+            </article>
+
+            <br>
+
+            <article>
+
+                <h3>Daughter</h3>
+
+                <p><strong>Name:</strong> Priya Sharma</p>
+                <p><strong>Age:</strong> 16 Years</p>
+                <p><strong>Occupation:</strong> Student</p>
+
+            </article>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Family Hobbies</h2>
+
+            <ul>
+                <li>Traveling</li>
+                <li>Cooking</li>
+                <li>Reading Books</li>
+                <li>Watching Movies</li>
+                <li>Playing Sports</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Contact Information</h2>
+
+            <p>Email: family@example.com</p>
+            <p>Phone: +91 98765 43210</p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>&copy; 2026 Family Profile. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#6382aa;
+    color:#0c0c0c;
+}
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    opacity:0.9;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.about{
+    text-align:center;
+    padding:50px 0;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.members{
+    padding:40px 0;
+}
+
+.members h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s ease;
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+
+}
+
+.card img{
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    margin-bottom:15px;
+
+    border:4px solid #7c3aed;
+
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.role{
+    color:#7c3aed;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.card p{
+    margin:5px 0;
+}
+
+.hobbies{
+
+    padding:50px 0;
+
+}
+
+.hobbies h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.hobby-list{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.hobby{
+
+    background:white;
+
+    padding:12px 20px;
+
+    border-radius:50px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+.contact{
+
+    padding:50px 0;
+
+    text-align:center;
+
+}
+
+.contact p{
+
+    margin:10px 0;
+
+}
+
+footer{
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:50px;
+
+}
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:32px;
+
+}
+
+}
+
+</style>
+</html>
+
+
+body{
+min-height:100vh;
+background:
+linear-gradient(
+135deg,
+#0f172a,
+#1e293b,
+#111827
+);
+color:white;
+padding:40px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;}
+
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+    margin-bottom:60px;
+}
+
+header h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+header p{
+opacity:0.9;
+color:#cbd5e1;
+font-size:18px;
+}
+
+.members{
+display:grid;
+grid-template-columns:
+padding:40px 0;
+repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background: white;
+<!-- rgba(255,255,255,0.05); -->
+border-radius:20px;
+backdrop-filter:blur(18px);
+-webkit-backdrop-filter:
+blur(18px);
+border-radius:25px;
+padding:30px;
+text-align:center;
+transition:0.4s ease;
+box-shadow:
+0 8px 32px
+rgba(0,0,0,0.35);
+
+}
+
+.card:hover{
+transform: translateY(-12px);
+background: rgba(255,255,255,0.08);
+box-shadow:0 15px 40px rgba(0,0,0,0.5);
+}
+
+.card img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+border:3px solid rgba(255,255,255,0.25);
+}
+
+.card h2{
+font-size:24px;
+margin-bottom:8px;
+}
+
+.role{color:#8b5cf6; font-weight:700; margin-bottom:15px;}
+
+.card p{color:#cbd5e1; line-height:1.7;}
+
+.hobbies{margin-top:70px; text-align:center;}
+
+.hobbies h2{margin-bottom:30px;}
+
+.tags{display:flex; justify-content:center; flex-wrap:wrap; gap:15px;}
+
+.tag{background:rgba(255,255,255,0.06);
+padding:24px; border-radius:50px; backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,0.12);
+transition:0.3s;
+}
+
+.tag:hover{background:rgba(139,92,246,0.25); cursor:pointer;}
+
+footer{margin-top:80px; text-align:center; color:#94a3b8; font-size:14px;
+}
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:36px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>Sharma Family</h1>
+
+<p>Together We Build Memories</p>
+
+</header>
+
+<section class="members">
+
+<div class="card">
+
+<img src="https://via.placeholder.com/120">
+
+<h2>Rajesh Sharma</h2>
+
+<div class="role">
+
+Father
+
+</div>
+
+<p>
+
+Engineer
+
+</p>
+
+<p>
+
+48 Years
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://via.placeholder.com/120">
+
+<h2>Sunita Sharma</h2>
+
+<div class="role">
+
+Mother
+
+</div>
+
+<p>
+
+Teacher
+
+</p>
+
+<p>
+
+45 Years
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://via.placeholder.com/120">
+
+<h2>Aman Sharma</h2>
+
+<div class="role">
+
+Son
+
+</div>
+
+<p>
+
+Student
+
+</p>
+
+<p>
+
+20 Years
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://via.placeholder.com/120">
+
+<h2>Priya Sharma</h2>
+
+<div class="role">
+
+Daughter
+
+</div>
+
+<p>
+
+Student
+
+</p>
+
+<p>
+
+16 Years
+
+</p>
+
+</div>
+
+</section>
+
+<section class="hobbies">
+
+<h2>Family Hobbies</h2>
+
+<div class="tags">
+
+<div class="tag">
+
+Traveling
+
+</div>
+
+<div class="tag">
+
+Cooking
+
+</div>
+
+<div class="tag">
+
+Reading
+
+</div>
+
+<div class="tag">
+
+Photography
+
+</div>
+
+<div class="tag">
+
+Movies
+
+</div>
+
+<div class="tag">
+
+Sports
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Sharma Family
+
+</footer>
+
+</div>
+
+</body>
+</html>
